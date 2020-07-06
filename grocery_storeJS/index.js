@@ -9,7 +9,7 @@ var shopper = {
     age: 31,
     hairColor: "brown",
     isAlive: true,
-    mentallyStable: "false",
+    mentallyStable: false,
     fullName: function() {
         return this.firstName + " " + this.lastName;
     }
