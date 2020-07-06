@@ -6,9 +6,9 @@ var groceryCart = ["milk", "eggs", "bread", "lemonade", "orangejuice", "cheese"]
 var shopper = {
     firstName: "Dude",
     lastName: "Guy",
-    age: "31",
+    age: 31,
     hairColor: "brown",
-    isAlive: "true",
+    isAlive: true,
     mentallyStable: "false",
     fullName: function() {
         return this.firstName + " " + this.lastName;
