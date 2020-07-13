@@ -8,26 +8,26 @@ just fix the existing ones.
 
 // Written by Kent, Clark
 
-var Enemies = ["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
+var enemies = ["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
 
-function Who_Wins(is_there_kryptonite,enemy_name)
+function Who_Wins(isThereKryptonite,enemyName)
 {
-if (!is-there-kryptonite){
-    return "Superman beats" + enemy_Name + ", of course";
+if (!isThereKryptonite){
+    return "Superman beats" + enemyName + ", of course";
 } else{
-    return "Depends on how quick Superman can get rid of the Kryptonite. "+ enemy_Name +" could possibly win this one.";
+    return "Depends on how quick Superman can get rid of the Kryptonite. "+ enemyName +" could possibly win this one.";
 }
     }
 
 for (i=0; i < Enemies.length; i++)
 {
-    var is_there_kryptonite = "";
+    var isThereKryptonite = "";
     if(i % 2 === 0) {
-        is_there_kryptonite = true;
+        isThereKryptonite = true;
     } else {
-        is_there_kryptonite = false;
+        isThereKryptonite = false;
     }
-    console.log(Who_Wins(is_there_kryptonite,Enemies.length[i]));
+    console.log(Who_Wins(isThereKryptonite,enemies.length[i]));
 }
 
 function HowAttractedIsLoisLaneToMe ()
