@@ -19,7 +19,7 @@ if (!isThereKryptonite){
 }
     }
 
-for (i=0; i < Enemies.length; i++)
+for (i=0; i < enemies.length; i++)
 {
     var isThereKryptonite = "";
     if(i % 2 === 0) {
