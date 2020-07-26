@@ -53,7 +53,7 @@ function length(string){
     if (string.length <= 20){
         return (string + string)
     } else {
-        return 
+        return c.slice(1, 3)
     }
 }
 
