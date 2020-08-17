@@ -2,11 +2,12 @@ const readlineSync = require("readline-sync");
 
 const enemies = ["Roc", "Mimic", "Nightmare", "Headless Horseman"];
 
+const userName = readlineSync.question("What is your name?");
 console.log("Welcome to the magical yet scary world of Efren, " + userName + "!")
 console.log("Feel free to wander, but watch your step. Press 'W' to get started.")
 
 let i = enemies.length;
-while(i) {const userName = readlineSync.question("What is your name?");
+while(i) {
 
 console.log("Don't be afraid to keep moving with 'W'.")
 
